@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Mr. Saikat Chatterjee</title>
+	<link rel="stylesheet" type="text/css" href="Css/Style.css">
+	<link rel="stylesheet" type="text/css" href="Css/mediaqueries.css">
+</head>
+<body>
+	<!-- desktop navbar section -->
+	<nav id="desktop-nav">
+		<div class="developer-name"> Saikat Chatterjee</div>
+		<ul id="navbar-list">
+			<li><a class="top-links"href="#about">About</a></li>
+			<li><a class="top-links"href="#skill">Experience</a></li>
+			<li><a class="top-links"href="#projects">Projects</a></li>
+			<li><a class="top-links"href="#contact-info">Connect</a></li>
+		</ul>
+		
+	</nav>
+	<!-- Mobile navbar section -->
+	<nav id="hamburger-nav">
+		<div class="developer-name"> Saikat Chatterjee</div>
+		<div class="hamburger-menu">
+			<div class="hamburger-logo" id="hamburger-icon"onclick="toggleFunc()">
+				<span></span>
+				<span></span>
+				<span></span>
+			</div>
+			<div class="hamburger-list" id="menu-links">
+				<li><a class="top-links"href="#about" onclick="toggleFunc()">About</a></li>
+				<li><a class="top-links"href="#" onclick="toggleFunc()">Experience</a></li>
+				<li><a class="top-links"href="#" onclick="toggleFunc()">Projects</a></li>
+				<li><a class="top-links"href="#" onclick="toggleFunc()">Connect</a></li>
+			</div>
+
+		</div>
+	</nav>
+	<!-- profile section -->
+	<section id="profile">
+		
+			<div class="my-img">
+				<img src="./images/pic new.jpg" alt="saikat chatterjee image" title="saikat chatterjee">
+			</div>
+			<div class="info">
+				<p class="text-1">Hello, I'm</p>
+				<h2 class="title">Saikat Chatterjee</h2>
+				<p class="text-2">Frontend Developer</p>
+				<div class="button-container">
+					<button id="resume" class="btn" onclick="resume()">Resume</button>
+					<button id="contact" class="btn" onclick="emailMe()">Contact me</button>
+				</div>
+					<div class="social-container">
+						<img src="./images/linkedin.png" id="linkdin" alt="linkdin page"  class="my-icon" onclick="linkdin()">
+						<img src="./images/github.png" id="github" alt="github page" class="my-icon" onclick="github()">
+						<img src="./images/youtube.png" id="youtube" alt="youtube chennel" class="my-icon" onclick="youtube()">
+					</div>
+			</div>
+	</section>
+	<!-- About Section -->
+	<section id="about">
+		<p class="text-1">Get To Know More</p>
+		<h1 class="title">About Me</h1>
+		<div class="parallel-div">
+			<div id="image container" class="my-img">
+				<img src="./images/Non_bg2.png" alt="saikat chatterjee2">
+			</div>
+			<div class="horizontal-div">
+				<div id="ExpAndEduDiv">
+					<div id="ExpDiv" class="my-journey">
+						<img class="my-icon skill-icon" src="./images/experience.png">
+						<h3>Experience</h3>
+						<p>2022-2023<br>
+							Ex Graduate Engineer Trainee<br>
+							STL Digital 
+						</p>
+					</div>
+					<div id="EduDiv" class="my-journey"> 
+						<img class="my-icon skill-icon" src="./images/education.png">
+						<h3>Education</h3>
+						<p>	2019-2022<br>
+							B.tech in ECE<br> Murshidabad College of Engineering and Technology 
+						</p>
+					</div>
+				</div>
+				<div id="textAboutDiv">
+					<p class="text-1">
+						I am a developer with a focus on Frontend, but still exploring other technologies and framworks that catch my interest. If you looking for a developer to add to your team, i'd love to hear you from.
+					</p>
+					
+				</div>
+			</div>
+		</div>
+		
+		
+	</section>
+	<!-- Experience Section -->
+	<section id="skill">
+		<p class="text-1">Explore my</p>
+		<h1 class="title">Experience</h1>
+		<div class="parallel-div experience-box">
+			<div class="container-lg">
+				<h1 class="experience-title container-name">Frontend Development</h1>
+				<div class="skills-container">
+					<article class="items">
+						<img src="./images/checkmark.png" class="my-icon skill-icon">
+						<div class="item-name">
+							<h1>HTML</h1>
+						</div>
+					</article>
+					<article class="items">
+						<img src="./images/checkmark.png" class="my-icon skill-icon">
+						<div class="item-name">
+							<h1>CSS</h1>
+						</div>
+					</article>
+					<article class="items">
+						<img src="./images/checkmark.png" class="my-icon skill-icon">
+						<div class="item-name">
+							<h1>Bootstrap</h1>
+						</div>
+					</article>
+					<article class="items">
+						<img src="./images/checkmark.png" class="my-icon skill-icon">
+						<div class="item-name">
+							<h1>JavaScript</h1>
+						</div>
+					</article>
+					<article class="items">
+						<img src="./images/checkmark.png" class="my-icon skill-icon">
+						<div class="item-name">
+							<h1>JQuery</h1>
+						</div>
+					</article>
+
+				</div>
+			</div>
+			<div class="container-lg">
+				<h1 class="experience-title container-name">Backend Development</h1>
+				<div class="skills-container">
+					<article class="items">
+						<img src="./images/checkmark.png" class="my-icon skill-icon">
+						<div class="item-name">
+							<h1>Php</h1>
+						</div>
+					</article>
+					<article class="items">
+						<img src="./images/checkmark.png" class="my-icon skill-icon">
+						<div class="item-name">
+							<h1>MySql</h1>
+						</div>
+					</article>
+					<article class="items">
+						<img src="./images/checkmark.png" class="my-icon skill-icon">
+						<div class="item-name">
+							<h1>Git Github</h1>
+						</div>
+					</article>
+					<article class="items">
+						<img src="./images/checkmark.png" class="my-icon skill-icon">
+						<div class="item-name">
+							<h1>SpringBoot</h1>
+						</div>
+					</article>
+					<article class="items">
+						<img src="./images/checkmark.png" class="my-icon skill-icon">
+						<div class="item-name">
+							<h1>Java</h1>
+						</div>
+					</article>
+
+					
+			</div>
+		</div>
+	</section>
+	<!-- project section -->
+	<section id="projects">
+		<p class="text-1">Browse my</p>
+		<h1 class="title">Projects</h1>
+		<div  class="parallel-div experience-box">
+			<div class="container-lg">
+				<div class="container-img">
+					<img class="project-img" src="./images/bookstall.jpg">
+				</div>
+				<h1 class="container-name" style="margin-bottom: 1rem;">Bookstall</h1>
+				<div class="button-container">
+					<button class="project-btn"><a href="https://bookstallphp.000webhostapp.com/index.php" target="_blank">Live Demo</a></button>
+					<button class="project-btn"><a href="https://github.com/saibun/PHP_Bookstall" target="_blank">Github</a></button>
+					
+				</div>
+			</div>
+			<div class="container-lg">
+				<div class="container-img">
+					<img class="project-img" src="./images/springboot_img.png">
+				</div>
+				<h1 class="container-name" style="margin-bottom: 1rem;">CRUD</h1>
+				<div class="button-container">
+					<button class="project-btn"><a href="https://youtu.be/k0VaDIydgKA" target="_blank">Live Demo</a></button>
+					<button class="project-btn"><a href="https://github.com/saibun/Spring_Boot_RESTful_CRUD_API" target="_blank">Github</a></button>
+				</div>
+			</div>
+			<div class="container-lg">
+				<div class="container-img">
+					<img class="project-img" src="./images/movie-icon.jpg">
+				</div>
+				<h1 class="container-name" style="margin-bottom: 1rem;">Top Movies</h1>
+				<div class="button-container">
+					<button class="project-btn"><a href="https://saibun.github.io/movie_app_jquery/" target="_blank">Live Demo</a></button>
+					<button class="project-btn"><a href="https://github.com/saibun/movie_app_jquery" target="_blank">Github</a></button>
+				</div>
+			</div>
+			
+		</div>
+	</section>
+	<section id="contact-info">
+		<p class="text-1">Get in touch</p>
+		<h1 class="title">Contact Me</h1>
+		<div id="social-footer">
+			<div class="contact-items" >
+				<img src="./images/email.png" class="contact-icon email-icon">
+				<p onclick="emailMe()">csaikat66@gmail.com</p>
+			</div>
+			<div class="contact-items">
+				<img src="./images/linkedin.png"  class="contact-icon">
+				<p onclick="linkdin()">Linkdin</p>
+			</div>
+			
+		</div>
+	</section>
+	<footer id="footbar">
+		<nav id="desktop-nav">
+			<ul id="navbar-list">
+				<li><a class="top-links"href="#about">About</a></li>
+				<li><a class="top-links"href="#skill">Experience</a></li>
+				<li><a class="top-links"href="#projects">Projects</a></li>
+				
+			</ul>
+
+		
+		</nav>
+		<p>Copyright © 2023 Saikat Chatterjee </p>
+		
+	</footer>
+
+	
+
+	
+	<script type="text/javascript" src="./JS/script.js"></script>
+</body>
+</html>

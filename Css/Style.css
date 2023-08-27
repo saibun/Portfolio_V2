@@ -204,16 +204,19 @@ section{
 #resume:hover{
   background-color: #353535;
   color: white;
+  cursor: pointer;
 
 }
 #contact{
-  background-color: #353535;
+  background-color: #555555;
   color: white;
 }
 #contact:hover{
-  background-color: black;
-  color: white;
+  cursor: pointer;
+  background-color: #353535;
+  
 }
+
 /*About Section*/
 img[alt="saikat chatterjee2"]{
   border-radius: 2rem;

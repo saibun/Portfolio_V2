@@ -1,5 +1,5 @@
 
-@media screen and (max-width:1200px){
+@media screen and (max-width:1021px){
 	#desktop-nav{
 		display: none;
 	}
@@ -8,7 +8,7 @@
 	}
 
 }
-@media (max-width: 500px){
+@media only screen and (max-width:500px){
 	section{
 		margin: 4rem 0;
 		height: fit-content;
@@ -22,6 +22,7 @@
 	}
 	#ExpAndEduDiv{
 		flex-wrap: wrap;
+		transition: all 2s ease-in ease-out;
 	}
 	.my-img{
 		width: 100%;
@@ -35,7 +36,86 @@
 	#copyright{
 		margin-top: 6rem;
 	}
-	/*.parallel-div{
-		margin-bottom: 16rem;
-	}*/
+	.github-btn{
+		background-color: rgb(53, 53, 53);
+  		color: white;
+	}
+	.demo-btn:hover{
+		background-color: inherit;
+  		color: inherit;
+	}
+	.contact-items>p:hover{
+	  text-decoration: none;
+	  color: #555A6B;
+	}
+}
+@media only screen and (min-width:501px) and (max-width:1000px){
+	section{
+		margin: 0;
+		height: fit-content;
+	}
+	.about-div{
+		flex-direction: column;
+	}
+	.about-img{
+		width: 100%;
+	}
+	.about-img>img{
+		width: 50%;
+
+	}
+	.parallel-div{
+		flex-wrap: wrap;
+	}
+	#profile{
+		gap: 1.5rem;
+		height: 60%;
+	}
+	#resume:hover{
+		color: inherit;
+		background: inherit;
+
+	}
+	#contact:hover{
+	  background-color: #555555;
+  	  color: white;
+	  
+	}
+	.github-btn{
+		background-color: rgb(53, 53, 53);
+  		color: white;
+	}
+	.github-btn:hover{
+		background-color: rgb(53, 53, 53);
+  		color: white;
+	}
+	.demo-btn:hover{
+		background-color: inherit;
+  		color: inherit;
+	}
+	.contact-items>p:hover{
+	  text-decoration: none;
+	  color: #555A6B;
+	}
+
+}
+	 
+	
+	
+	
+
+	
+
+
+@media only screen and (min-width:501px) and (max-width:720px){
+	#profile{
+		flex-flow:column  wrap ;
+	}
+	.my-img{
+		width: 100%;
+	}
+	.my-img>img{
+		width: auto;
+
+	}
 }

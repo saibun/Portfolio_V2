@@ -2,7 +2,7 @@
 <html>
 <head>
 	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="viewport" content="width=device-width, initial-scale=1,maximum-scale=1.0, user-scalable=no">
 	<title>Mr. Saikat Chatterjee</title>
 	<link rel="stylesheet" type="text/css" href="Css/Style.css">
 	<link rel="stylesheet" type="text/css" href="Css/mediaqueries.css">
@@ -30,9 +30,9 @@
 			</div>
 			<div class="hamburger-list" id="menu-links">
 				<li><a class="top-links"href="#about" onclick="toggleFunc()">About</a></li>
-				<li><a class="top-links"href="#" onclick="toggleFunc()">Experience</a></li>
-				<li><a class="top-links"href="#" onclick="toggleFunc()">Projects</a></li>
-				<li><a class="top-links"href="#" onclick="toggleFunc()">Connect</a></li>
+				<li><a class="top-links"href="#skill" onclick="toggleFunc()">Experience</a></li>
+				<li><a class="top-links"href="#projects" onclick="toggleFunc()">Projects</a></li>
+				<li><a class="top-links"href="#contact-info" onclick="toggleFunc()">Connect</a></li>
 			</div>
 
 		</div>
@@ -40,8 +40,8 @@
 	<!-- profile section -->
 	<section id="profile">
 		
-			<div class="my-img">
-				<img src="./images/pic new.jpg" alt="saikat chatterjee image" title="saikat chatterjee">
+			<div class="my-img .wrapper">
+				<img src="./images/pic new.jpg" alt="saikat chatterjee image" title="saikat chatterjee" class=".wrapperimg">
 			</div>
 			<div class="info">
 				<p class="text-1">Hello, I'm</p>
@@ -62,8 +62,8 @@
 	<section id="about">
 		<p class="text-1">Get To Know More</p>
 		<h1 class="title">About Me</h1>
-		<div class="parallel-div">
-			<div id="image container" class="my-img">
+		<div class="parallel-div about-div">
+			<div id="image container" class="my-img about-img">
 				<img src="./images/Non_bg2.png" alt="saikat chatterjee2">
 			</div>
 			<div class="horizontal-div">
@@ -178,15 +178,15 @@
 	<section id="projects">
 		<p class="text-1">Browse my</p>
 		<h1 class="title">Projects</h1>
-		<div  class="parallel-div experience-box">
-			<div class="container-lg">
+		<div  class="parallel-div experience-box project-gap">
+			<div class="container-lg project-box">
 				<div class="container-img">
 					<img class="project-img" src="./images/bookstall.jpg">
 				</div>
 				<h1 class="container-name" style="margin-bottom: 1rem;">Bookstall</h1>
 				<div class="button-container">
-					<button class="project-btn"><a href="https://bookstallphp.000webhostapp.com/index.php" target="_blank">Live Demo</a></button>
-					<button class="project-btn"><a href="https://github.com/saibun/PHP_Bookstall" target="_blank">Github</a></button>
+					<button class="project-btn demo-btn"><a href="https://bookstallphp.000webhostapp.com/index.php" target="_blank">Live Demo</a></button>
+					<button class="project-btn github-btn"><a href="https://github.com/saibun/PHP_Bookstall" target="_blank">Github</a></button>
 					
 				</div>
 			</div>
@@ -196,8 +196,8 @@
 				</div>
 				<h1 class="container-name" style="margin-bottom: 1rem;">CRUD</h1>
 				<div class="button-container">
-					<button class="project-btn"><a href="https://youtu.be/k0VaDIydgKA" target="_blank">Live Demo</a></button>
-					<button class="project-btn"><a href="https://github.com/saibun/Spring_Boot_RESTful_CRUD_API" target="_blank">Github</a></button>
+					<button class="project-btn demo-btn"><a href="https://youtu.be/k0VaDIydgKA" target="_blank">Live Demo</a></button>
+					<button class="project-btn github-btn"><a href="https://github.com/saibun/Spring_Boot_RESTful_CRUD_API" target="_blank">Github</a></button>
 				</div>
 			</div>
 			<div class="container-lg">
@@ -206,8 +206,8 @@
 				</div>
 				<h1 class="container-name" style="margin-bottom: 1rem;">Top Movies</h1>
 				<div class="button-container">
-					<button class="project-btn"><a href="https://saibun.github.io/movie_app_jquery/" target="_blank">Live Demo</a></button>
-					<button class="project-btn"><a href="https://github.com/saibun/movie_app_jquery" target="_blank">Github</a></button>
+					<button class="project-btn demo-btn"><a href="https://saibun.github.io/movie_app_jquery/" target="_blank">Live Demo</a></button>
+					<button class="project-btn github-btn"><a href="https://github.com/saibun/movie_app_jquery" target="_blank">Github</a></button>
 				</div>
 			</div>
 			

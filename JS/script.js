@@ -5,7 +5,7 @@ function toggleFunc(){
 	icon.classList.toggle("open");
 }
 function resume() {
-    window.open("./documents/UpdateResume280723.pdf");
+    window.open("./documents/Saikat Chatterjee.pdf");
 }
 function emailMe() {
     location.href = "mailto:someone@example.com";

@@ -5,13 +5,13 @@ function toggleFunc(){
 	icon.classList.toggle("open");
 }
 function resume() {
-    window.open("./documents/Saikat Chatterjee.pdf");
+    window.open("./documents/saikat_chatterjee.pdf");
 }
 function emailMe() {
     location.href = "mailto:someone@example.com";
 }
 function linkdin() {
-    window.open("https://www.linkedin.com/in/saikat-chatterjee-55bb96200/");
+    window.open("https://www.linkedin.com/in/csaikat0614/");
 }
 
 function github() {

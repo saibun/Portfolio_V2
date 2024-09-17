@@ -20,3 +20,17 @@ function github() {
 function youtube() {
     window.open("https://www.youtube.com/channel/UC03zwfNw0932w92jn9yglgg");
 }
+let techKey = ["JavaScript","Node.js","Express","React","MongoDB"];
+let count = 0;
+let techElement = document.getElementById("techKey");
+function showTime(){
+    setTimeout(()=>{
+        techElement.classList.remove("show");
+        techElement.textContent = techKey[count];
+        techElement.classList.add("show");
+        count=(count+1) % techKey.length;
+
+    },1000)
+
+}
+setInterval(showTime,1000);

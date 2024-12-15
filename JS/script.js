@@ -5,7 +5,7 @@ function toggleFunc(){
 	icon.classList.toggle("open");
 }
 function resume() {
-    window.open("./documents/saikat_chatterjee.pdf");
+    window.open("./documents/SaikatChatterjee_Javascript_resume.pdf");
 }
 function emailMe() {
     location.href = "mailto:someone@example.com";
